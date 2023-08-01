@@ -1,5 +1,10 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using ConsoleApp2Lec1.Polymorphism;
+using ConsoleApp2Lec1.AccessModifiers;
+using ConsoleApp2Lec1.Constuctor;
+using ConsoleApp2Lec1.Interface;
+using ConsoleApp2Lec1.Abstract;
 
 
 namespace ConsoleApp2Lec1
@@ -26,7 +31,11 @@ namespace ConsoleApp2Lec1
             Console.WriteLine("10 - Enum and Structure");
             Console.WriteLine("11 - Inheritance ");
             Console.WriteLine("12 - Polymorphism ");
-            Console.WriteLine("13 - (Access mod , Constructor , Interface , Abstract) go to code no visible output");
+            // Console.WriteLine("13 - (Access mod , Constructor , Interface , Abstract) go to code no visible output");
+            Console.WriteLine("12 - Access Modifires ");
+            Console.WriteLine("14 - Constuctor ");
+            Console.WriteLine("15 - Interface ");
+            Console.WriteLine("16 - Absraction ");
             Console.ResetColor();
         }
 
@@ -34,13 +43,18 @@ namespace ConsoleApp2Lec1
         static void TakingOptionAndOpration()
 
         {
-            
+            AbstractClassEx abstractClassEx = new AbstractClassEx();
+            testClass testClassInterface = new testClass();
+            CallConstructor callConstructor = new CallConstructor();
+            AccessModiPro accessModiPro = new AccessModiPro();
             MethodOverloading polymorphismObj = new MethodOverloading();
             Inheritance inheritanceObj = new Inheritance();
             EnumAndStructure EnumAndStuctObj = new EnumAndStructure();
             ControlStructure controlObj = new ControlStructure(); // class refrance to use methods from that class
             ArrayStucture ArrayObj = new ArrayStucture(); // Array Stucture object to call methods
             ParametersPassing paraObj = new ParametersPassing();
+
+
             Console.WriteLine("Please choose one of option from menu");
            
             int choice = int.Parse(Console.ReadLine());
@@ -84,6 +98,18 @@ namespace ConsoleApp2Lec1
                 case 12:
                     polymorphismObj.MethodOverloadingEx(); // name here is overloading but its entry for poly
                     break;
+                case 13:
+                    accessModiPro.AccessInMainEx();
+                    break;
+                case 14:
+                    callConstructor.TestConstuctor();
+                    break;
+                case 15:
+                    testClassInterface.InterfaceInfo();
+                    break;
+                case 16:
+                    abstractClassEx.AbstactionEX();
+                    break;
 
 
 
@@ -120,6 +146,7 @@ namespace ConsoleApp2Lec1
         static void substraction()
         {
             Console.Clear();
+            Console.WriteLine();
             Console.WriteLine("                          ---------------Arithmatic Opration-------------");
             Console.WriteLine("Enter number 1 :");
             int number1 = Convert.ToInt32(Console.ReadLine());
@@ -131,7 +158,9 @@ namespace ConsoleApp2Lec1
         }
         static void ageValidation()
         {
-
+            Console.Clear();
+            Console.WriteLine("This is the sample implementation of control statement (if else )");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             Console.WriteLine("Check for your voting age validation");
             Console.WriteLine("Enter your age here -> ");
             int age = Convert.ToInt32(Console.ReadLine());

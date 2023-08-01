@@ -45,9 +45,10 @@ namespace ConsoleApp2Lec1
         public static void CallByValue()
         {
             Console.Clear();
-            Console.WriteLine("CALL BY VALUE =   In call by value after making " +
-                "modification in function the original value does not change \n " +
-                "becouse the new copy is sent to the function \n");
+            Console.WriteLine("\t\t\tCALL BY VALUE =   In call by value after making " +
+                "\t\t\tmodification in function the original value does not change \n " +
+                "\t\t\tbecouse the new copy is sent to the function \n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             Console.WriteLine("Enter the value to pass the function \n");
             int MainValue = int.Parse(Console.ReadLine());
             Console.WriteLine($"before the modification {MainValue} ");
@@ -73,9 +74,10 @@ namespace ConsoleApp2Lec1
         public static void CallByRef()
         {
             Console.Clear();
-            Console.WriteLine("CALL BY REF =   In call by REF after making modification" +
-                " in function the original value  change \n"+"Here we pass value as well " +
-                "as the memory address of that veraiable \n");
+            Console.WriteLine("\t\t\tCALL BY REF =   In call by REF after making modification" +
+                "\t\t\t in function the original value  change \n"+"Here we pass value as well " +
+                "\t\t\tas the memory address of that veraiable \n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             Console.WriteLine("Enter the value to pass the function \n");
             int MainValue = int.Parse(Console.ReadLine());
             Console.WriteLine($"before the modification {MainValue} ");
@@ -102,8 +104,9 @@ namespace ConsoleApp2Lec1
         public static void CallByRefOut()
         {
             Console.Clear();
-            Console.WriteLine("CALL BY REF OUT  =   In call by REF OUT  after making modification in function the original value not be considerd " +
-                "becouse we need to initialise the veriable in fuction  \n");
+            Console.WriteLine("\t\t\tCALL BY REF OUT  =   In call by REF OUT  after making modification in function the original value not be considerd " +
+                "\t\t\tbecouse we need to initialise the veriable in fuction  \n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             Console.WriteLine("Enter the value to pass the function \n");
             int MainValue = int.Parse(Console.ReadLine());
             Console.WriteLine($"before the modification {MainValue} ");

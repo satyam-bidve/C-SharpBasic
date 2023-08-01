@@ -46,6 +46,12 @@ namespace ConsoleApp2Lec1.Polymorphism
        
        public  void OverridingEx()
         {
+            
+            Console.Clear();
+            Console.WriteLine("\t\tMethod Overriding in C# is similar to the virtual function in C++. Method Overriding is a technique " +
+                "\t\tthat allows the invoking of functions from another class (base class) in the derived class. Creating a method in the" +
+                "\t\t derived class with the same signature as a method in the base class is called as method overriding\t\n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             MethodOverriding circle = new Circle();
             Console.WriteLine("Circle Area: " + circle.Area());
 

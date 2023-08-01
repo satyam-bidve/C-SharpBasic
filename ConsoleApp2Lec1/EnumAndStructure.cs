@@ -51,7 +51,7 @@ namespace ConsoleApp2Lec1
             Console.WriteLine("-------------- Enum Exaple -----------");
             Console.WriteLine("\t \t \t An enum is a special \"class\" that represents a group of constants (unchangeable/read-only variables).To create an enum,\n" +
                 " use the enum keyword (instead of class or interface), and separate the enum items with a comma:\n");
-
+            Console.WriteLine("------------------------ OutPut -----------------------");
             // Enum can be use in two ways by its constat and by its name it is mainly to store realated constats to use them letter 
             if (Speed.Supra > Speed.failady) // Here no need to type cast the element to get its value 
             {
@@ -103,10 +103,10 @@ namespace ConsoleApp2Lec1
             Console.WriteLine("---------------- Stucture Exaple ---------------");
             Console.WriteLine("\t \t struct can be used to hold small data values that do not require inheritance, e.g. coordinate points, key-value pairs, and complex data structure\n");
             Console.WriteLine("\t \t It can contain a parameterized constructor, static constructor, constants, fields, methods, properties, indexers, operators, events, and nested types.\n");
-
+            Console.WriteLine("------------------------ OutPut -----------------------");
             // here in this method we call methods which are in stuct above 
 
-           
+
 
             Cars  mycar = new Cars();     // creating cars with type of car like object
             Cars  friendsCar = new Cars();

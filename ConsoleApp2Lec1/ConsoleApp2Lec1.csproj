@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\AbstractClassEx.cs" />
     <Compile Include="AccessModifiers\AccessModiPro.cs" />
     <Compile Include="ArrayStucture.cs" />
     <Compile Include="Constuctor\ConstructorEx.cs" />

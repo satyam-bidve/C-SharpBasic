@@ -56,6 +56,11 @@ namespace ConsoleApp2Lec1.Polymorphism
 
         public static void tryOverLoading()
         {
+            Console.Clear();
+            Console.WriteLine("Two or more than two methods having the same name but different parameters is what we call function overloading in C#. " +
+                "function overloading in C# can be performed by changing the number of arguments and the data " +
+                "type of the arguments.\n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             Console.WriteLine($"this is the result from method add having three para {Add(10, 20, 50)}\n"); ; // base on paramets match to method that method will be call 
             Console.WriteLine($"this is the result from method add having two para {Add(10, 20)}");
 

@@ -37,7 +37,10 @@ namespace ConsoleApp2Lec1
         public void ForLoopEx()
         {
             Console.Clear();
-            Console.WriteLine("                          ---------------Control Statements-------------");
+            Console.WriteLine("                          ---------------Control Statements-  FOR LOOP------------");
+            Console.WriteLine("\t \t A for loop is more flexible to work with , it has the ability to madify the sppeing / itration according to the " +
+                "\t \t developer , it has three componants initialisation , codition checking and modification in index \n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             //  printing multiplication table by choice of user 
             Console.WriteLine("Enter the number you want to pring that table ");
             int number = Convert.ToInt32(Console.ReadLine());
@@ -52,7 +55,9 @@ namespace ConsoleApp2Lec1
         public void ForEachEx()
         {
             Console.Clear();
-            Console.WriteLine("                          ---------------Control Statements-------------");
+            Console.WriteLine("                     ---------------Control Statements ( For Each )-------------");
+            Console.WriteLine("A foreach loop is a standard loop structure used in programming that allows you to iterate through the elements of a collection.");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             // for each is use to iterate data stucture like arrays lists and
             // more  so create first one array
             string[] cars = { "BMW M5", "Ford GT", "TaTA siara ", "toyota Supra" , "nisaan GTR" };

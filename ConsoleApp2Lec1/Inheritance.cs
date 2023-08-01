@@ -40,7 +40,11 @@ namespace ConsoleApp2Lec1
             {
                 Console.Clear();
                 Console.WriteLine("The capability of a class to derive properties and characteristics from another class is called Inheritance.");
-
+                Console.WriteLine("Single Level Inheritance. Single Level Inheritance involves a single class inheriting from another class. .." +
+                    ".\r\nHierarchical Inheritance. ..." +
+                    "\r\nMulti-Level Inheritance. ..." +
+                    "\r\nMultiple Inheritance Using Interfaces.");
+                Console.WriteLine("------------------------ OutPut -----------------------");
                 ChildClass child = new ChildClass();  // fist call parent constructor and then its own 
                 child.print(); // on child object accesing the methods of parent class 
 

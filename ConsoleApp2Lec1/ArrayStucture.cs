@@ -80,12 +80,14 @@ namespace ConsoleApp2Lec1
         static void OneDArray()
         {
             Console.Clear();
-            Console.WriteLine("                          ---------------Array-------------");
+            Console.WriteLine("                          ---------------Array 1D-------------");
 
             Console.WriteLine(" \t \t What is array in simple words? An array is \n" +
                 " \t \t an arrangement of numbers, pictures or objects formatted into rows and columns according to \n" +
                 "\t \t  their type. In coding and programming, an array is a collection of items, or data, stored in\n" +
                 "\t \t  contiguous memory locations, also known as database systems ");
+
+            Console.WriteLine("------------------------ OutPut -----------------------");
 
             // creating array 
             int[] evenNums = { 2, 4, 6, 8, 10 };
@@ -100,12 +102,13 @@ namespace ConsoleApp2Lec1
         static void ArrayOfObjects()
         {
             Console.Clear();
-            Console.WriteLine("                          ---------------Array-------------");
+            Console.WriteLine("                   ---------------Array of Objects-------------");
+
 
             Console.WriteLine(" \t \t We know that an array is a collection of the same data type that \n" +
                 " \t \t dynamically creates objects and can have elements of primitive types. Java allows us to store objects in an array.\n " +
                 "\t \t In Java, the class is also a user-defined data type. An array that conations class type elements are known as an array of objects.\n");
-
+            Console.WriteLine("------------------------ OutPut -----------------------");
             // text to show user and take size of array 
             Console.WriteLine(" - - ");
             Console.WriteLine("Store new cars in your car collection ");
@@ -148,12 +151,14 @@ namespace ConsoleApp2Lec1
         public static  void TwoDiamentionalArray()
         {
             Console.Clear();
-            Console.WriteLine("                          ---------------Array-------------");
+            Console.WriteLine("                          ---------------Array 2D-------------");
 
             Console.WriteLine(" \t  \t A two-dimensional array, also \n" +
                 " \t  \t known as a 2D array, is a collection of data elements arranged in  \n" +
                 " \t  \t a grid-like structure with rows and columns. Each element in the array is referred to as a cell and can be accessed \n" +
                 " \t  \t by its row and column indices/indexes \n ");
+
+            Console.WriteLine("------------------------ OutPut -----------------------");
 
             Console.WriteLine("Enter the size of array like 2x3 : ");
             String userInput = Console.ReadLine(); // Taking the size of 2d array its in String
@@ -204,12 +209,13 @@ namespace ConsoleApp2Lec1
         public static void JaggedArrayEx()
         {
             Console.Clear();
-
+            Console.WriteLine("------------------------ Array Jagged  -----------------------");
             Console.WriteLine(" \t \t A jagged array is an array whose elements are \n " +
                 " \t \t  arrays, possibly of different sizes. A jagged array is sometimes \n " +
                 " \t \t  arrays, possibly of different sizes. A jagged array is sometimes \n " +
                 "\t \t  called an \"array of arrays.\" The following examples show how to declare,  \n " +
                 " \t \t initialize, and access jagged arrays");
+            Console.WriteLine("------------------------ OutPut -----------------------");
 
 
             Console.WriteLine("Enter the number of array you want to store ");
@@ -281,6 +287,11 @@ namespace ConsoleApp2Lec1
 
         public static void BinarySearchExample()
         {
+            Console.Clear();
+            Console.WriteLine("\t\t\tBinarySearch(Array, Object) Searches an entire one-dimensional sorted array" +
+                " \t\t\tfor a specific element, using the IComparable interface implemented by each " +
+                "\t\t\telement of the array and by the specified object.\n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             int size = GetArraySizeFromUser();
             int[] NumberCollection = GetIntegerArray(size);
 
@@ -305,6 +316,9 @@ namespace ConsoleApp2Lec1
 
         public static void ClearArrayElements()
         {
+            Console.Clear();
+            Console.WriteLine("\t\t\tClearing the array  \n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             int size = GetArraySizeFromUser();
             int[] NumberCollection = GetIntegerArray(size);
 
@@ -333,6 +347,9 @@ namespace ConsoleApp2Lec1
 
         public static void CopyArrayElements()
         {
+            Console.Clear();
+            Console.WriteLine("\t\t\tCopying the array By taking the inputs as start index of source index \n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             int Array1Size = GetArraySizeFromUser();
             int[] SourceArray = GetIntegerArray(Array1Size);
 
@@ -370,6 +387,11 @@ namespace ConsoleApp2Lec1
 
         public static void ArrayLinearSearch()
         {
+            Console.Clear();
+            Console.WriteLine("\t\t\tLinear search is used on a collections of items. It relies on the technique of " +
+                "\t\t\ttraversing a list from start to end by exploring properties of all the" +
+                "\t\t\t elements that are found on the way.\n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             int size = GetArraySizeFromUser();
             int[] Numbers = GetIntegerArray(size);
 
@@ -409,6 +431,9 @@ namespace ConsoleApp2Lec1
 
         public static void ReverseArray()
         {
+            Console.Clear();
+            Console.WriteLine("\t\t\tReversing the array By using the Array.Reverse method \n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             int size = GetArraySizeFromUser();
             int[] Numbers = GetIntegerArray(size);
 
@@ -424,6 +449,9 @@ namespace ConsoleApp2Lec1
 
         public static void SortArray()
         {
+            Console.Clear();
+            Console.WriteLine("\t\t\tSorting  the array By using the Array.Sort method \n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
             int size = GetArraySizeFromUser();
             int[] Numbers = GetIntegerArray(size);
 

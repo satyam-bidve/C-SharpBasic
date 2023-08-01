@@ -69,6 +69,15 @@ namespace ConsoleApp2Lec1.Constuctor
     {
         public void TestConstuctor()
         {
+            Console.Clear();
+            Console.WriteLine("Whenever an instance of a class or a struct is created, its constructor is called. " +
+                "A class or struct may have multiple constructors that take different arguments. Constructors enable the programmer" +
+                " to set default values, limit instantiation, and write code that is flexible and easy to read. For more\n");
+           
+            Console.WriteLine("------------------------ OutPut -----------------------");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("**** there is no such visible output check the code itself  ****");
+            Console.ResetColor();
             ConstructorEx constObj = new ConstructorEx(); // this will call default constuctor 
             ConstructorEx constObj2 = new ConstructorEx("tatyaSaheb"); // this will call parameteriesd constructor 
 

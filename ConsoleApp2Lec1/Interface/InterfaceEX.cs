@@ -18,6 +18,18 @@ namespace ConsoleApp2Lec1.Interface
 
     class testClass : InterfaceEX
     {
+        public void InterfaceInfo()
+        {
+            Console.Clear();
+            Console.WriteLine("------------------------ INTERFACE------------------");
+            Console.WriteLine("An interface contains definitions for a group of related functionalities that a non-abstract class or a struct must implement.\n " +
+                "An interface may define static methods, which must have an implementation.\n");
+            Console.WriteLine("------------------------ OutPut -----------------------");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("**** there is no such visible output check the code itself****");
+            Console.ResetColor();
+
+        }
         #region implement interface implicitly
         /* void InterfaceEX.greet()
          {
