@@ -496,8 +496,9 @@ namespace ConsoleApp2Lec1
 
                 ArrayTopics();
                 TakeInOpration();
-
+                Console.ForegroundColor= ConsoleColor.Green;
                 Console.WriteLine("Do you want to try another topics yes -> y and no -> n  ");
+                Console.ResetColor ();
                 string playAgianChoice = Console.ReadLine();
                 if (playAgianChoice == "Y" || playAgianChoice == "y")
                 {

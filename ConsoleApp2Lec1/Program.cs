@@ -5,6 +5,8 @@ using ConsoleApp2Lec1.AccessModifiers;
 using ConsoleApp2Lec1.Constuctor;
 using ConsoleApp2Lec1.Interface;
 using ConsoleApp2Lec1.Abstract;
+using ConsoleApp2Lec1.Extension_Method;
+using ConsoleApp2Lec1.Collection;
 
 
 namespace ConsoleApp2Lec1
@@ -36,6 +38,8 @@ namespace ConsoleApp2Lec1
             Console.WriteLine("14 - Constuctor ");
             Console.WriteLine("15 - Interface ");
             Console.WriteLine("16 - Absraction ");
+            Console.WriteLine("17 - Extention Methods ");
+            Console.WriteLine("18 - Collections ");
             Console.ResetColor();
         }
 
@@ -43,6 +47,8 @@ namespace ConsoleApp2Lec1
         static void TakingOptionAndOpration()
 
         {
+            CollectionEX collectionEXOBJ = new CollectionEX();
+            UseOfExtensionMethods useOfExtensionMethods = new UseOfExtensionMethods();
             AbstractClassEx abstractClassEx = new AbstractClassEx();
             testClass testClassInterface = new testClass();
             CallConstructor callConstructor = new CallConstructor();
@@ -109,6 +115,12 @@ namespace ConsoleApp2Lec1
                     break;
                 case 16:
                     abstractClassEx.AbstactionEX();
+                    break;
+                case 17:
+                    useOfExtensionMethods.useOfExtention();
+                    break;
+                case 18:
+                    collectionEXOBJ.CollectionEx();
                     break;
 
 
