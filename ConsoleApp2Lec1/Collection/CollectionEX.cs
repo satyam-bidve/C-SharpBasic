@@ -14,12 +14,14 @@ namespace ConsoleApp2Lec1.Collection
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("--------------MENU OF Collection------------");
             Console.WriteLine(" >>> 1 - ArrayList");
+            Console.WriteLine(" >>> 2 - List");
 
             Console.ResetColor();
         }
 
         public static void TakeInOpration()
         {
+            ListEX listObj = new ListEX();
             ArrayListEX ArrayListObj = new ArrayListEX();
             Console.WriteLine("Enter which topic you want to - visit");
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -27,6 +29,9 @@ namespace ConsoleApp2Lec1.Collection
             {
                 case 1:
                     ArrayListObj.ArrayListEx();
+                    break;
+                case 2:
+                    listObj.ListEx();
                     break;
             }
         }

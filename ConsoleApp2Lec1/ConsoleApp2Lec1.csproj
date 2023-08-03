@@ -48,11 +48,13 @@
     <Compile Include="ArrayStucture.cs" />
     <Compile Include="Collection\ArrayListEX.cs" />
     <Compile Include="Collection\CollectionEX.cs" />
+    <Compile Include="Collection\ListEX.cs" />
     <Compile Include="Constuctor\ConstructorEx.cs" />
     <Compile Include="Constuctor\PrivateConstructorEx.cs" />
     <Compile Include="ControlStructure.cs" />
     <Compile Include="EnumAndStructure.cs" />
     <Compile Include="Extension Method\ExtensionMethodEX.cs" />
+    <Compile Include="Farmers.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Interface\InterfaceEX.cs" />
     <Compile Include="ParametersPassing.cs" />

@@ -39,7 +39,7 @@ namespace ConsoleApp2Lec1
             Console.WriteLine("15 - Interface ");
             Console.WriteLine("16 - Absraction ");
             Console.WriteLine("17 - Extention Methods ");
-            Console.WriteLine("18 - Collections ");
+            Console.WriteLine("18 - Collections  [Chapter]");
             Console.ResetColor();
         }
 
