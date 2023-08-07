@@ -48,6 +48,8 @@
     <Compile Include="ArrayStucture.cs" />
     <Compile Include="Collection\ArrayListEX.cs" />
     <Compile Include="Collection\CollectionEX.cs" />
+    <Compile Include="Collection\DictionaryEX.cs" />
+    <Compile Include="Collection\HashTableEX.cs" />
     <Compile Include="Collection\ListEX.cs" />
     <Compile Include="Constuctor\ConstructorEx.cs" />
     <Compile Include="Constuctor\PrivateConstructorEx.cs" />
