@@ -17,6 +17,9 @@ namespace ConsoleApp2Lec1.Collection
             Console.WriteLine(" >>> 2 - List");
             Console.WriteLine(" >>> 3 - Dictionary");
             Console.WriteLine(" >>> 4 - HashTable ");
+            Console.WriteLine(" >>> 5 - SortedList ");
+            Console.WriteLine(" >>> 6 - Stack ");
+            Console.WriteLine(" >>> 7 - Queue ");
 
 
             Console.ResetColor();
@@ -24,6 +27,9 @@ namespace ConsoleApp2Lec1.Collection
 
         public static void TakeInOpration()
         {
+            QueueEX queueObj = new QueueEX();
+            StackEX stackObj = new StackEX();
+            SortedListEX sortedListObj = new SortedListEX();
             HashTableEX hashTableObj = new HashTableEX();
             DictionaryEX dictionaryObj = new DictionaryEX();
             ListEX listObj = new ListEX();
@@ -43,6 +49,15 @@ namespace ConsoleApp2Lec1.Collection
                     break;
                 case 4:
                     hashTableObj.HashTableEx();
+                    break;
+                case 5:
+                    sortedListObj.SortedListEx();
+                    break;
+                case 6:
+                    stackObj.StackEx();
+                    break;
+                case 7:
+                    queueObj.QueueEx();
                     break;
             }
         }

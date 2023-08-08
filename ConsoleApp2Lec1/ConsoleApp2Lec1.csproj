@@ -51,6 +51,9 @@
     <Compile Include="Collection\DictionaryEX.cs" />
     <Compile Include="Collection\HashTableEX.cs" />
     <Compile Include="Collection\ListEX.cs" />
+    <Compile Include="Collection\QueueEX.cs" />
+    <Compile Include="Collection\SortedListEX.cs" />
+    <Compile Include="Collection\StackEX.cs" />
     <Compile Include="Constuctor\ConstructorEx.cs" />
     <Compile Include="Constuctor\PrivateConstructorEx.cs" />
     <Compile Include="ControlStructure.cs" />
